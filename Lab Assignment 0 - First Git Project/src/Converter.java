@@ -8,25 +8,29 @@ public class Converter {
 	 */
 
 	
-	private double celsiusToFahrenheit(double C){
+	private double celsiusToFahrenheit(double C) {
 		// TODO: The third student will implement this method
-		
-		// Third student: Remy Onyegbutulem 
-		double F = ( C*(9/5) ) + 32 ; 
+
+		double F = (C * (9 / 5)) + 32;
 		return F;
 	}
-	
-	private double fahrenheitToCelsius(double F){
+
+	private double fahrenheitToCelsius(double F) {
 		// TODO: The second student will implement this method
-		double C = (F - 32) * (5/9);
 		
+		double C = (F - 32) * (5 / 9);
 		return C;
 	}
-	
+
 	public static void main(String[] args) {
-		//TODO: The first student will implement this method.
+		// TODO: The first student will implement this method.
 		// Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
 		// Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
+
+		Converter temp = new Converter();
+
+		System.out.println("180 Celcius is equal to " + temp.celsiusToFahrenheit(180) + " Fahrenheit.");
+		System.out.println("250 Fahrenheit is equal to " + temp.fahrenheitToCelsius(250) + " Celcius.");
 	}
-	
+
 }
