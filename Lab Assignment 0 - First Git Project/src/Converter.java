@@ -1,11 +1,10 @@
 
 public class Converter {
-	//Sonia, Khaled Behairy, Remy
 	
 	/*
-	 * @Author: Sonia
+	 * @Author: Sonia Obi
 	 * 			Khaled Behairy
-	 * 			Remy
+	 * 			Remy Onyegbutulem 
 	 */
 
 	
