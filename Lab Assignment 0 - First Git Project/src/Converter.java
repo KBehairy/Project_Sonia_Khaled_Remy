@@ -22,6 +22,11 @@ public class Converter {
 		double C = (F - 32) * 5 / 9;
 		return C;
 	}
+	
+	private double kilometersToMiles(double km) {
+		double mi = km / 1.609;
+		return mi;
+	}
 
 	public static void main(String[] args) {
 		// TODO: The first student will implement this method.
