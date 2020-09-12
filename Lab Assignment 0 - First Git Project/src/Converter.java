@@ -34,9 +34,12 @@ public class Converter {
 		// Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
 
 		Converter temp = new Converter();
+		Converter speed = new Converter();
 
 		System.out.println("180 Celcius is equal to " + temp.celsiusToFahrenheit(180) + " Fahrenheit.");
 		System.out.println("250 Fahrenheit is equal to " + temp.fahrenheitToCelsius(250) + " Celcius.");
+		
+		System.out.println("30 kilometers is equal to " + speed.kilometersToMiles(30) + " miles.");
 	}
 
 }
